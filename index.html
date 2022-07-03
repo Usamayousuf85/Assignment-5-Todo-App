@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background-image: url(1.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-color: #000;
+        color: red;
+        text-align: center;
+    }
+
+    input {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.2em;
+        background-color: red;
+        color: #fff;
+        margin-top: 3px;
+    }
+</style>
+
+<body>
+    <h1>
+        Todo App
+    </h1>
+    <div>
+        <input placeholder="Enter Your Text" id="text" type="text">
+    </div>
+    <div>
+        <button onclick="additem()">Add</button>
+        <button onclick="deleteall()">Delete All</button>
+    </div>
+    <ul id="list">
+
+    </ul>
+</body>
+<script src="app.js"></script>
+
+</html>
